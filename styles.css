@@ -3,6 +3,7 @@
 :root {
   --color-primary: #4d41c0;
   --bg-gray: #e8e8e8;
+  --white:#fff;
 }
 
 * {
@@ -14,7 +15,17 @@ html, body {
     background-color: var(--bg-gray);
 }
 
-a, a:hover {
+header{
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a, a:hover{
   text-decoration: none;
   color: unset;
 }
